@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body ondragstart="return false">
+    <div class="player">
+        <div class="player__header">
+            <div class="player__img player__img--absolute slider">
+                <button class="player__button player__button--absolute--nw playlist">
+                    <img src="img/icons/playlist.svg" alt="playlist-icon">
+                </button>
+                
+                <button class="player__button player__button--absolute--center play">
+                    <img src="img/icons/play.svg" alt="play-icon">
+                    <img src="img/icons/pause.svg" alt="pause-icon">
+                </button>
+                
+            <div class="slider__content">
+                <img class="img slider__img" src="img/1.jpg" alt="cover">
+                <img class="img slider__img" src="img/2.jpg" alt="cover">
+                <img class="img slider__img" src="img/3.jpg" alt="cover">
+                <img class="img slider__img" src="img/4.jpg" alt="cover">
+                <img class="img slider__img" src="img/5.jpg" alt="cover">
+                <img class="img slider__img" src="img/6.jpg" alt="cover">
+                <img class="img slider__img" src="img/7.jpg" alt="cover">
+                <img class="img slider__img" src="img/8.jpg" alt="cover">
+            </div>
+        </div>
+        
+        <div class="player__controls">
+            <button class="player__button back">
+                <img class="img" src="img/icons/back.svg" alt="back-icon">
+            </button>
+            <p class="player__context slider__context">
+                <strong class="slider__name">Todos os meus pensamentos são seus</strong>
+                <span class="player__title slider__title">Banda Msynck</span>
+            </p>
+            
+            <button class="player__button next">
+                <img class="img" src="img/icons/next.svg" alt="next-icon">
+            </button>
+            
+            <div class="progres">
+                <div class="progres__filled" style="width: 0.73979%;"></div>
+            </div>
+        </div>
+    </div>
+    
+    <ul class="player__playlist list">
+
+        <li class="player__song">
+            <img class="player__img img" src="img/1.jpg" alt="cover">
+            <p class="player__context">
+                <b class="player__song-name">Todos os meus pensamentos são seus</b>
+                <span class="flex">
+                    <span class="player__title">Banda Msynck</span>
+                    <span class="player__song-time">03:46</span>
+                </span>
+            </p>
+            
+            <audio class="audio" src="music/Todos Meus Pensamentos.mp3"></audio>
+        </li>
+
+        <li class="player__song">
+            <img class="player__img img" src="img/2.jpg" alt="cover">
+            <p class="player__context">
+                <b class="player__song-name">Plano B</b>
+                <span class="flex">
+                    <span class="player__title">Banda Batidão do Melody</span>
+                    <span class="player__song-time">02:59</span>
+                </span>
+            </p>
+            
+            <audio class="audio" src="music/Plano B.mp3"></audio>
+        </li>
+        
+        <li class="player__song">
+            <img class="player__img img" src="img/3.jpg" alt="cover">
+            <p class="player__context">
+                <b class="player__song-name">Tropical</b>
+                <span class="flex">
+                    <span class="player__title">Viviane Batidão</span>
+                    <span class="player__song-time">04:31</span>
+                </span>
+            </p>
+            
+            <audio class="audio" src="music/Tropical.mp3"></audio>
+        </li>
+  
+        <li class="player__song">
+            <img class="player__img img" src="img/4.jpg" alt="cover">
+            <p class="player__context">
+                <b class="player__song-name">Moleca Doida</b>
+                <span class="flex">
+                    <span class="player__title">Viviane Batidão</span>
+                    <span class="player__song-time">04:30</span>
+                </span>
+            </p>
+            
+            <audio class="audio" src="music/Moleca Doida.mp3"></audio>
+        </li>
+  
+        <li class="player__song">
+            <img class="player__img img" src="img/5.jpg" alt="cover">
+            <p class="player__context">
+                <b class="player__song-name">Tuxaua</b>
+                <span class="flex">
+                    <span class="player__title">Viviane Batidão</span>
+                    <span class="player__song-time">04:01</span>
+                </span>
+            </p>
+            
+            <audio class="audio" src="music/Tuxaua.mp3"></audio>
+        </li>
+  
+        <li class="player__song">
+            <img class="player__img img" src="img/3.jpg" alt="cover">
+            <p class="player__context">
+                <b class="player__song-name">Menina Confusa</b>
+                <span class="flex">
+                    <span class="player__title">Viviane Batidão</span>
+                    <span class="player__song-time">04:40</span>
+                </span>
+            </p>
+            
+            <audio class="audio" src="music/Menina Confusa.mp3"></audio>
+        </li>
+  
+        <li class="player__song">
+            <img class="player__img img" src="img/6.jpg" alt="cover">
+            <p class="player__context ">
+                <b class="player__song-name">Amiga Amante</b>
+                <span class="flex">
+                    <span class="player__title">Fruto Sensual</span>
+                    <span class="player__song-time">04:05</span>
+                </span>
+            </p>
+            
+            <audio class="audio" src="music/Amiga Amante.mp3"></audio>
+        </li>
+  
+        <li class="player__song">
+            <img class="player__img img" src="img/7.jpg" alt="cover">
+            <p class="player__context">
+                <b class="player__song-name">Apaixonada</b>
+                <span class="flex">
+                    <span class="player__title">Banda Batidão</span>
+                    <span class="player__song-time">02:38</span>
+                </span>
+            </p>
+            
+            <audio class="audio" src="music/Apaixonada.mp3"></audio>
+        </li>
+  
+        <li class="player__song">
+            <img class="player__img img" src="img/8.jpg" alt="cover">
+            <p class="player__context ">
+                <b class="player__song-name">Lembranças<span class="uppercase"></span></b>
+                <span class="flex">
+                    <span class="player__title">Banda Os Canibais</span>
+                    <span class="player__song-time">03:53</span>
+                </span>
+            </p>
+            <audio class="audio" src="music/Lembranças.mp3"></audio>
+        </li>
+    </ul>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
